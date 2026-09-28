@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-generated data
+data/*.csv
+data/*.npy
+data/*.npz
+
+# Trained models
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
