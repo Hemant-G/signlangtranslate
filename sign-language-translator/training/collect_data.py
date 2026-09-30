@@ -27,7 +27,7 @@ def main():
             writer.writerow(header)
 
         cap = cv2.VideoCapture(0)
-        detector = HandDetector(max_num_hands=1)
+        detector = HandDetector(max_num_hands=2)
         
         print(f"Collecting data for label: {label}")
         print("Press SPACE to capture.")

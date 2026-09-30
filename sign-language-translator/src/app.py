@@ -16,7 +16,7 @@ from src.tts import TTS
 
 def main():
     cap = cv2.VideoCapture(0)
-    detector = HandDetector(max_num_hands=1)
+    detector = HandDetector(max_num_hands=2)
     
     smoother = PredictionSmoother(window_size=7)
     text_buffer = TextBuffer(debounce_frames=10)
